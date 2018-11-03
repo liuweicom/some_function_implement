@@ -3,6 +3,7 @@
 ### 参考：
 [剖析 Promise 之基础篇](https://tech.meituan.com/promise-insight.html)
 [理解Promise简单实现的背后原理](https://segmentfault.com/p/1210000008832836/read)
+[JS Promise的实现原理]http://bruce-xu.github.io/blogs/js/promise
 这个 feature 实现的难点在于：如何衔接当前 promise 和后邻 promise。
 
 首先对 then 方法进行改造：
